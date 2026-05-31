@@ -1,0 +1,13 @@
+* { box-sizing: border-box; font-family: sans-serif; }
+body { margin: 0; padding: 20px; background-color: #f4f4f4; }
+nav { margin-bottom: 20px; padding: 15px; background-color: #333; border-radius: 5px; }
+nav a { color: white; text-decoration: none; margin-right: 20px; padding: 5px 10px; }
+nav a:hover { border-bottom: 2px solid white; }
+.container { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border: 1px solid #ccc; border-radius: 8px; }
+.box { padding: 20px; margin: 15px 0; border: 2px solid #ddd; border-radius: 5px; }
+.card { width: 180px; height: 120px; display: inline-block; padding: 20px; margin: 10px; border: 2px solid #aaa; cursor: pointer; text-align: center; background: #fff; border-radius: 8px; }
+.card.selected { border-color: #28a745; background-color: #d4edda; }
+.item-list { display: flex; flex-wrap: wrap; gap: 15px; }
+.item { padding: 15px; border: 1px solid #999; background: #eee; width: calc(50% - 15px); border-radius: 5px; }
+button { padding: 10px 20px; margin: 10px 5px 10px 0; cursor: pointer; border: none; background: #007bff; color: white; border-radius: 5px; }
+button:hover { background: #0056b3; }
